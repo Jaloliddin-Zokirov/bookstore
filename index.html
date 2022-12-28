@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
-    <title>Book store</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Food store</title>
   </head>
   <body>
     <header class="mt-3 mb-5">
@@ -42,15 +42,15 @@
                 class="form-select me-2 border-success text-success js-sort"
                 aria-label="Default select example"
               >
-                <option selected disabled>Sort</option>
+                <option selected value="sort">Sort</option>
                 <option value="expensive">Expensive</option>
                 <option value="cheap">Cheap</option>
               </select>
               <input
                 class="form-control text-success border-success me-4 js-search"
                 type="search"
-                placeholder="Enter Number"
-                aria-label="Enter Number"
+                placeholder="Search"
+                aria-label="Search"
               />
               <button
                 class="position-relative btn btn-outline-warning py-2 js-mark-button"
@@ -110,6 +110,17 @@
       </div>
     </header>
 
+    <main>
+      <section class="food mt-3">
+        <div class="container">
+          <div class="d-flex justify-content-between gap-4 flex-wrap js-list">
+
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
